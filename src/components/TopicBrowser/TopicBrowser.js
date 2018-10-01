@@ -4,20 +4,26 @@ import FilterObject from "../Topics/FilterObject";
 import FilterString from "../Topics/FilterString";
 import Palindrome from "../Topics/Palindrome";
 import Sum from "../Topics/Sum";
+// import {
+//   EvenAndOdd,
+//   FilterObject,
+//   FilterString,
+//   Palindrome,
+//   Sum
+// } from "../Topics/";
 
 class TopicBrowser extends Component {
-	render() {
-		return (
-			<div>
-				<p>Hello World</p>
-				<EvenAndOdd />
-				<FilterObject />
-				<FilterString />
-				<Palindrome />
-				<Sum />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div className="puzzleFeed">
+        <EvenAndOdd />
+        <FilterObject />
+        <FilterString />
+        <Palindrome />
+        <Sum />
+      </div>
+    );
+  }
 }
 
 export default TopicBrowser;
